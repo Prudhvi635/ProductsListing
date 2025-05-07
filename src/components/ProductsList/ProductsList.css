@@ -88,7 +88,8 @@
   flex-grow: 1;
 }
 
-.add-to-cart-button {
+.add-to-cart-button
+ {
   background-color: #4caf50;
   color: white;
   border: none;
@@ -98,6 +99,16 @@
   transition: background-color 0.3s;
   font-weight: bold;
   margin-top: auto;
+}
+.go-to-cart-button{
+  background-color: transparent;
+  color: #4caf50;
+  border: 2px solid #4caf50;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  font-weight: bold;
 }
 
 .add-to-cart-button:hover {
